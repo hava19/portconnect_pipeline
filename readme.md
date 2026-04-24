@@ -43,6 +43,11 @@ The platform demonstrates:
 
 ---
 
+## 🎥 Demo
+
+[![Watch Demo](https://img.shields.io/badge/Watch%20Demo-Google%20Drive-blue?style=for-the-badge&logo=googledrive)](https://drive.google.com/file/d/1AiXYNmQwXOCU_FcKYbn9LxYzimwki6Hy/view?usp=sharing)
+
+
 ## Architecture
 
 ```
