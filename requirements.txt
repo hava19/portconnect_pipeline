@@ -1,0 +1,4 @@
+Python=3.12.3
+fastapi=0.117.1
+airflow=3.1.0
+emqx=6.0.0

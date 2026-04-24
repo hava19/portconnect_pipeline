@@ -1,0 +1,6 @@
+1. buat cluster
+2. buat topic crane_events, gate_in_events, gate_out_events
+3. buat connector - pilih tab connector - pilih Amazon S3 Sink
+4. ikuti langkah nya nanti diminta kredensial dari aws
+5. jika gagal akan muncul notice , perbaiki kredensial aws nya
+6. buat Confluent Cloud API key akan mendapatkan API key dan API secret:

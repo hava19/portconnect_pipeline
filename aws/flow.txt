@@ -1,0 +1,24 @@
+1. buat bucket , disini saya menggunakan Amazon S3 sebagai bucket untuk data lake
+2. buat policy , agar user IAM bisa akses nanti minimal seperti 
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Effect": "Allow",
+            "Action": [
+                "s3:GetObject",
+                "s3:PutObject",
+                "s3:DeleteObject",
+                "s3:ListBucket",
+                "s3:GetBucketLocation"
+            ],
+            "Resource": [
+                "arn:aws:s3:::isi dengan nama bucket aws s3",
+                "arn:aws:s3:::isi dengan nama bucket aws s3/*"
+            ]
+        }
+    ]
+}
+
+3. buat IAM user untuk confluent kafka , lalu berikan policy pada point 2 ke user tsb
+4. buat access key , catat / simpan / download file credentials

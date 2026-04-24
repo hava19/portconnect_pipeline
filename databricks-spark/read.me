@@ -1,0 +1,6 @@
+1. pada stream bronze 
+            .option("kafka.sasl.jaas.config", 'kafkashaded.org.apache.kafka.common.security.plain.PlainLoginModule required username="" password="";')
+username diambil dari API key confluent dan password diambil dari API secret confluent
+2.begitu juga semua topic yang di listen dari confluent kafka : gate in dan gate out
+3.untuk prod grade semua kredensial disimpan pada file env
+4. https://docs.databricks.com/aws/en/ldp/expectations dokumentasi
